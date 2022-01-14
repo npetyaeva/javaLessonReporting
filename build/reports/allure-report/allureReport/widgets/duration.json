@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b6fa4bfdf062ab8e",
+  "name" : "shouldCheckChangeDate()",
+  "time" : {
+    "start" : 1642151017454,
+    "stop" : 1642151025034,
+    "duration" : 7580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

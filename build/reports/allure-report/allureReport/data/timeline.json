@@ -1,0 +1,51 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "pc",
+    "children" : [ {
+      "name" : "13560@pc.Test worker(14)",
+      "children" : [ {
+        "name" : "shouldCheckChangeDate()",
+        "uid" : "8261fe3659f7bb9f",
+        "parentUid" : "c9788e5aebae6162579b1effbedc39a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642150883263,
+          "stop" : 1642150893216,
+          "duration" : 9953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9788e5aebae6162579b1effbedc39a3"
+    }, {
+      "name" : "12960@pc.Test worker(14)",
+      "children" : [ {
+        "name" : "shouldCheckChangeDate()",
+        "uid" : "b6fa4bfdf062ab8e",
+        "parentUid" : "1c9dacbb672333e11168223897a8fd75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642151017454,
+          "stop" : 1642151025034,
+          "duration" : 7580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c9dacbb672333e11168223897a8fd75"
+    } ],
+    "uid" : "04a91c94ab21e54e685c0d0a3f7e6ec5"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.netology.test.DeliveryCardTest",
+    "children" : [ {
+      "name" : "shouldCheckChangeDate",
+      "uid" : "b6fa4bfdf062ab8e",
+      "parentUid" : "c5fc449aeb70057e180125015dc5bfc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642151017454,
+        "stop" : 1642151025034,
+        "duration" : 7580
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.netology.test.DeliveryCardTest"
+  } ]
+}
