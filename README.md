@@ -1,16 +1,8 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/nlyenh8svptif86o?svg=true)](https://ci.appveyor.com/project/npetyaeva/javalessonpatterns)
-
 ### Модуль «Автоматизированное тестирование»
 
-# Заказ доставки карты (изменение даты)
+# 1. Allure
 
-Необходимо автоматизировать тестирование новой функции формы заказа доставки карты:
+Необходимо прикрутить Allure, интегрированный с Selenide, к ранее реализованному проекту [Patterns](https://github.com/npetyaeva/javaLessonPatterns).
 
-Требования к содержимому полей:
-- Город - один из административных центров субъектов РФ
-- Дата - не ранее трёх дней с текущей даты
-- Поле Фамилия и имя - разрешены только русские буквы, дефисы и пробелы
-- Поле телефон - только цифры (11 цифр), символ + (на первом месте)
-- Флажок согласия должен быть выставлен
+⇨ [Отчет](https://htmlpreview.github.io/?https://github.com/npetyaeva/javaLessonReporting/blob/master/build/reports/allure-report/allureReport/index.html)
 
-Тестируемая функциональность: если заполнить форму повторно теми же данными за исключением "Даты встречи", то система предложит перепланировать время встречи.
