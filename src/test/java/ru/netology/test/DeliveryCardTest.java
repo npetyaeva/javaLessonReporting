@@ -1,6 +1,9 @@
 package ru.netology.test;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,6 +17,7 @@ public class DeliveryCardTest {
     @BeforeAll
     static void setUpAll() {
         Configuration.browser = "chrome";
+        SelenideLogger.addListener("allure", new AllureSelenide());
     }
 
     @BeforeEach
@@ -33,5 +37,10 @@ public class DeliveryCardTest {
 
         orderPage.successOrder(info, secondDate);
         orderPage.checkSecondDelivery(secondDate);
+    }
+
+    @AfterAll
+    static void tearDownAll() {
+        SelenideLogger.removeListener("allure");
     }
 }
